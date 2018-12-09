@@ -1,0 +1,420 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-family: Tahoma;
+  font-weight: 400;
+  background-color: rgba(255, 222, 254, 0.9);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 90%;
+  margin: 30px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image: url("../../images/gym.jpg");
+}
+.container1 .title {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  color: black;
+  border: 3px solid black;
+  font-size: 20px;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+.container1 .title2 {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  color: black;
+  font-size: 15px;
+  flex-wrap: wrap;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 46%;
+  height: 222px;
+  border: 2px solid black;
+  margin: 25px;
+  flex-wrap: wrap;
+  overflow: auto;
+  background-color: rgba(95, 95, 219, 0.9);
+}
+@media (max-width: 1600px) {
+  form {
+    display: block;
+  }
+  .container1 {
+    display:block;
+  }
+  .form1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-between;
+    margin: 3px;
+    font-size: 9px;
+  }
+  .form2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3px;
+    font-size: 9px;
+  }
+  .form3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 9px;
+  }
+  label {
+    font-size: 9px;
+    padding: 3px;
+    font-weight: 500;
+  }
+  button {
+    font-size: 12px;
+  }
+  .buttonplace {
+    margin: 10px;
+    padding: 10px;
+  }
+  .buttonplace2 {
+    margin: 4px;
+    padding: 4px;
+  }
+}
+.form1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  font-size: 20px;
+}
+.form2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  font-size: 20px;
+}
+.form3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 40px;
+}
+label {
+  padding: 3px;
+  font-weight: 500;
+}
+button {
+  font-size: 16px;
+}
+.buttonplace {
+  margin: 10px;
+  padding: 10px;
+}
+.buttonplace2 {
+  margin: 4px;
+  padding: 4px;
+}
+
+.container2 label {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container2 button {
+  margin: 5px;
+  border: 0.3px solid;
+}
+
+input{
+  margin: 2.5px;
+}
+
+.formularz {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 5px;
+  font-size: 20px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 46%;
+  height: 222px;
+  border: 2px solid black;
+  margin: 25px;
+  flex-wrap: wrap;
+  background-color: yellow;
+  overflow: auto;
+  background-color: rgba(89, 163, 142, 0.9);
+  font-weight: 600;
+}
+
+.title3 {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  color: black;
+  font-size: 19px;
+  flex-wrap: wrap;
+  padding:3px;
+  margin-bottom: -5px;
+}
+.title3 h3 {
+  border: 3px solid black;
+  padding: 2.5px;
+}
+
+.summix {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.mix {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+  margin: 5px;
+  padding-right: 15px;
+}
+.mix2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+  margin: 5px;
+  padding-left: 15px;
+
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  width: 46%;
+  height: 222px;
+  border: 2px solid black;
+  margin: 25px;
+  flex-wrap: wrap;
+  background-color: rgba(163, 67, 57, 0.9);
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 46%;
+  height: 222px;
+  border: 2px solid black;
+  margin: 25px;
+  flex-wrap: wrap;
+  background-color: rgba(238, 255, 94, 0.9);
+  overflow: auto;
+}
+
+section {
+  display: grid;
+}
+
+.header {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: lightgray;
+  width: 96%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: -10px;
+  height: 60px;
+  font-size: 45px;
+  color: black;
+  border: 4px solid black;
+  font-style: Cambria;
+}
+
+.fullmeal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kcalmeal{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 11.5px;
+  font-weight: 300;
+  margin: 0.5px;
+  padding: 1px;
+}
+
+.kcalmeal h4 {
+  margin: 1px;
+  padding: 6px;
+}
+
+
+
+.meal1 {
+  margin: 2.5px;
+  padding: 2px;
+}
+.meal2 {
+  margin: 2.5px;
+  padding: 2px;
+}
+.meal3 {
+  margin: 2.5px;
+  padding: 2px;
+}
+.meal4 {
+  margin: 2.5px;
+  padding: 2px;
+}
+.meal5 {
+  margin: 2.5px;
+  padding: 2px;
+}
+
+.meals {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title4 {
+   display:flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+  padding: 3px;
+  margin:2px;
+ }
+.subtitle {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  color: black;
+  font-size: 19px;
+  margin: 3px;
+  padding-top: 7px;
+  padding-bottom: -5px;
+  padding-right: 2px;
+  padding-left: 2px;
+  border: 3px solid black;
+  flex-wrap: wrap;
+}
+
+.together {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+.title5 h2 {
+  border: 3px solid black;
+  padding: 3px;
+}
+
+
+
+
+
+.finish {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eaten {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondfile {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: -5px;
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.secondfile h2 {
+  padding-right: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.component1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+
+.component1 h2 {
+  padding: 4px;
+}
+
+.component2 h2 {
+  padding: 4px;
+}
+
+.component2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
